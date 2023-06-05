@@ -38,7 +38,6 @@ class Config
 
   def self.load_limit
     $options[:busca][:limite] ||= MeuCarroNovo::Count.call($options[:busca].compact) unless $options[:busca][:limite]
-    p "#{$options[:busca][:limite]} Carros encontrados. Iniciando download."
   end
 
   def self.default_config

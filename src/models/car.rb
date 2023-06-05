@@ -2,7 +2,7 @@ require 'json'
 require_relative '../services/meu_carro_novo/download_image'
 
 class Car
-  attr_accessor :model, :brand, :value, :production_year, :model_year
+  attr_accessor :model, :brand, :value, :production_year, :model_year, :photo
 
   ATTRIBUTES = %w[modeloNome marcaNome preco anoFabricacao anoModelo fotoCapa].freeze
 

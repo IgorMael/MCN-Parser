@@ -6,8 +6,11 @@ module MeuCarroNovo
 
     def call
       validate
+
       url = URI::HTTPS.build(host: BASE_URL, path: ENDPOINT, query: URI.encode_www_form(@options))
-      JSON.parse(agent.get(url).body)['documentos']
+      response = JSON.parse(agent.get(url).body)
+      puts "Iniciando download de #{response['documentos'].size} carros"
+      response['documentos']
     end
 
     private
