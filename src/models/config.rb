@@ -25,7 +25,7 @@ class Config
       opts.on('-e', '--uf UF', 'Specify the UF') { |v| $options[:busca][:uf] = v }
       opts.on('-d', '--ddd DDD', 'Specify the DDD') { |v| $options[:busca][:ddd] = v }
       opts.on('-o', '--output OUTPUT', 'Specify the output file') { |v| $options[:output] = v }
-      opts.on('-l', '--output limite',
+      opts.on('-l', '--limite limite',
               'Specify the maximum number of results. Set to 0 to retrieve all results. Default: 20') do |v|
         $options[:busca][:limite] = v
       end
