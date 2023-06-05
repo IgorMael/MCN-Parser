@@ -1,0 +1,4 @@
+busca:
+  limite: 20
+output: "output.txt"
+image_directory: "images"
