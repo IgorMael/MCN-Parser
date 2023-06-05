@@ -12,14 +12,14 @@ MCN Parser is a Ruby application that allows you to search for cars and retrieve
 1. Clone the repository:
 
 ```shell
-   git clone https://github.com/your-username/meu-carro-novo.git
+   git clone https://github.com/IgorMael/MCN-Parser.git
 ```
 
 2. Navigate to the project directory:
 
 
  ```shell
-    cd MCN
+    cd MCN-Parser
  ```
   
 
