@@ -81,6 +81,13 @@ The application supports customizing the configuration options via a YAML file. 
 
  When the application starts, it will attempt to load the configuration from the config.yml file. Any values specified in the YAML file will override the default configuration.
 
+
+ ## Specs
+ The application has unit tests implemented. To execute the specs, run:
+```shell
+rspec
+```
+
 License
 
 This project is licensed under the MIT License.
